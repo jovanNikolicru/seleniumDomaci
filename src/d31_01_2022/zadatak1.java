@@ -28,7 +28,17 @@ public class zadatak1 {
 	
 		driver.findElements(By.xpath("(//*[@type='button'])[last()]"));
 			links.get(i).click();
-	
+		try {
+			WebElement e= links.get(i).findElement(By.xpath("//*[@aria-hidden='true']"));
+			daLiSeUgasilo=false;
+		} catch (Exception e) {
+			daLiSeUgasilo=true;
+		}
+		if(daLiSeUgasilo) {
+			System.out.println("Ugasio se");
+		}else {
+			System.out.println("nije se ugasio");
+		}
 			
 		}
 	} 
