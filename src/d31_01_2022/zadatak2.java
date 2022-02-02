@@ -26,6 +26,7 @@ public class zadatak2 {
 		
 		Select drop2= new Select(driver.findElement(By.className("cities")));
 		drop2.selectByIndex(1);
+		
 	
 	}
 
