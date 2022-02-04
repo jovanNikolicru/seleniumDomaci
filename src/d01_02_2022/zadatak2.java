@@ -38,6 +38,12 @@ public class zadatak2 {
 		wait.until(ExpectedConditions.attributeToBe(By.className("vjs-play-progress"), "style", "width: 100%;"));
 		System.out.println("Video je zavrsen");
 		driver.close();
+	
+		
+		
+		
+		
+		
 	}
 
 }
