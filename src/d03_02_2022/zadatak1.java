@@ -24,9 +24,12 @@ public class zadatak1 {
 		driver.navigate().to("https://www.google.com/");
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		WebElement e = driver.findElement(By.xpath("//body"));
-		//js.executeScript( "arguments[0].style='background: black';", e);
+		
+		
+		//js.executeScript( "arguments[0].style='background: black';", e); ovo je za zadatak
+		
 		String boje[]= {"red","green","blue"};
-		js.executeScript("arguments[0].setAttribute('style', arguments[1]);", e, "background:" +boje[2]);
+		js.executeScript("arguments[0].setAttribute('style', arguments[1]);", e, "background:" +boje[2]);//ovo je dopuna 
 	}
 
 }
