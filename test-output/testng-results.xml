@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35928" started-at="2022-02-09T13:09:47 CET" finished-at="2022-02-09T13:10:23 CET">
+  <suite name="Default suite" duration-ms="48950" started-at="2022-02-10T09:07:32 CET" finished-at="2022-02-10T09:08:21 CET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35928" started-at="2022-02-09T13:09:47 CET" finished-at="2022-02-09T13:10:23 CET">
-      <class name="d07_02_2022_test_zadatak2.zadatak2Test">
-        <test-method status="PASS" signature="before()[pri:0, instance:d07_02_2022_test_zadatak2.zadatak2Test@12f41634]" name="before" is-config="true" duration-ms="7804" started-at="2022-02-09T13:09:47 CET" finished-at="2022-02-09T13:09:55 CET">
+    <test name="Default test" duration-ms="48950" started-at="2022-02-10T09:07:32 CET" finished-at="2022-02-10T09:08:21 CET">
+      <class name="d08_02_2022_test_zadatak1.FormTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:d08_02_2022_test_zadatak1.FormTest@2db7a79b]" name="before" is-config="true" duration-ms="7865" started-at="2022-02-10T09:07:32 CET" finished-at="2022-02-10T09:07:40 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="addingAndRemovingFromCart()[pri:0, instance:d07_02_2022_test_zadatak2.zadatak2Test@12f41634]" name="addingAndRemovingFromCart" duration-ms="23917" started-at="2022-02-09T13:09:55 CET" finished-at="2022-02-09T13:10:19 CET">
+        <test-method status="PASS" signature="formTest()[pri:0, instance:d08_02_2022_test_zadatak1.FormTest@2db7a79b]" name="formTest" duration-ms="40968" started-at="2022-02-10T09:07:40 CET" finished-at="2022-02-10T09:08:21 CET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addingAndRemovingFromCart -->
-        <test-method status="PASS" signature="after()[pri:0, instance:d07_02_2022_test_zadatak2.zadatak2Test@12f41634]" name="after" is-config="true" duration-ms="4107" started-at="2022-02-09T13:10:19 CET" finished-at="2022-02-09T13:10:23 CET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- d07_02_2022_test_zadatak2.zadatak2Test -->
+        </test-method> <!-- formTest -->
+      </class> <!-- d08_02_2022_test_zadatak1.FormTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="d07_02_2022_test_zadatak2.zadatak2Test">
+      <class name="d08_02_2022_test_zadatak1.FormTest">
         <methods>
-          <include name="addingAndRemovingFromCart"/>
           <include name="before"/>
+          <include name="formTest"/>
         </methods>
-      </class> <!-- d07_02_2022_test_zadatak2.zadatak2Test -->
+      </class> <!-- d08_02_2022_test_zadatak1.FormTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
