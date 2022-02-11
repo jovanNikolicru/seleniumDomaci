@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48950" started-at="2022-02-10T09:07:32 CET" finished-at="2022-02-10T09:08:21 CET">
+  <suite name="Default suite" duration-ms="33309" started-at="2022-02-11T14:50:32 CET" finished-at="2022-02-11T14:51:05 CET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48950" started-at="2022-02-10T09:07:32 CET" finished-at="2022-02-10T09:08:21 CET">
-      <class name="d08_02_2022_test_zadatak1.FormTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:d08_02_2022_test_zadatak1.FormTest@2db7a79b]" name="before" is-config="true" duration-ms="7865" started-at="2022-02-10T09:07:32 CET" finished-at="2022-02-10T09:07:40 CET">
+    <test name="Default test" duration-ms="33309" started-at="2022-02-11T14:50:32 CET" finished-at="2022-02-11T14:51:05 CET">
+      <class name="d10_02_2022_test.PlayerTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:d10_02_2022_test.PlayerTest@66d1af89]" name="beforeMethod" is-config="true" duration-ms="8309" started-at="2022-02-11T14:50:32 CET" finished-at="2022-02-11T14:50:40 CET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="formTest()[pri:0, instance:d08_02_2022_test_zadatak1.FormTest@2db7a79b]" name="formTest" duration-ms="40968" started-at="2022-02-10T09:07:40 CET" finished-at="2022-02-10T09:08:21 CET">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="playerTesting()[pri:0, instance:d10_02_2022_test.PlayerTest@66d1af89]" name="playerTesting" duration-ms="9331" started-at="2022-02-11T14:50:40 CET" finished-at="2022-02-11T14:50:49 CET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formTest -->
-      </class> <!-- d08_02_2022_test_zadatak1.FormTest -->
+        </test-method> <!-- playerTesting -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:d10_02_2022_test.PlayerTest@66d1af89]" name="afterMethod" is-config="true" duration-ms="1396" started-at="2022-02-11T14:50:49 CET" finished-at="2022-02-11T14:50:51 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:d10_02_2022_test.PlayerTest@66d1af89]" name="beforeMethod" is-config="true" duration-ms="3058" started-at="2022-02-11T14:50:51 CET" finished-at="2022-02-11T14:50:54 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="volumeTesting()[pri:0, instance:d10_02_2022_test.PlayerTest@66d1af89]" name="volumeTesting" duration-ms="10027" started-at="2022-02-11T14:50:54 CET" finished-at="2022-02-11T14:51:04 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volumeTesting -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:d10_02_2022_test.PlayerTest@66d1af89]" name="afterMethod" is-config="true" duration-ms="1066" started-at="2022-02-11T14:51:04 CET" finished-at="2022-02-11T14:51:05 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- d10_02_2022_test.PlayerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
